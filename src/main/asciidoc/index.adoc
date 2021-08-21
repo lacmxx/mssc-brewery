@@ -1,0 +1,70 @@
+= Brewery RestDocs Docs
+Lázaro Cobiella;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample application demonstrating how to use Spring REST Docs with JUnit 5.
+
+`BeerControllerTest` makes a call to a very simple service and produces three documentation snippets.
+
+GET BEER
+
+One showing how to make a request using cURL:
+
+include::{snippets}/get/v1/beer/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/get/v1/beer/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/get/v1/beer/http-response.adoc[]
+
+Response Body:
+include::{snippets}/get/v1/beer/response-body.adoc[]
+
+Response Fields:
+include::{snippets}/get/v1/beer/response-fields.adoc[]
+
+SAVE NEW BEER
+
+One showing how to make a request using cURL:
+
+include::{snippets}/post/v1/beer/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/post/v1/beer/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/post/v1/beer/http-response.adoc[]
+
+Response Body:
+include::{snippets}/post/v1/beer/response-body.adoc[]
+
+Request Fields
+include::{snippets}/post/v1/beer/request-fields.adoc[]
+
+UPDATE EXISTING BEER
+
+One showing how to make a request using cURL:
+
+include::{snippets}/put/v1/beer/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/put/v1/beer/http-request.adoc[]
+
+One showing the PATH parameter
+
+include::{snippets}/put/v1/beer/path-parameters.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/put/v1/beer/http-response.adoc[]
+
+Response Fields:
+include::{snippets}
